@@ -36,6 +36,9 @@
         .contact-item h4 { font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 12px; color: #1a1a1a; }
         .contact-item p { color: #666; }
         .contact-item a { color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #1a1a1a; }
+        .badge { display: inline-block; background: #e3f2fd; color: #1565c0; padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 500; margin: 8px 8px 0 0; }
+        .badge-access { background: #e8f5e9; color: #2e7d32; }
+        .badge-payment { background: #fff3e0; color: #e65100; }
         .cta { padding: 100px 0; text-align: center; background: #fff; }
         .cta h2 { font-family: 'Playfair Display', serif; font-size: 42px; margin-bottom: 20px; color: #1a1a1a; }
         .cta p { color: #666; font-size: 18px; margin-bottom: 40px; }
@@ -58,9 +61,11 @@
     <section class="hero">
         <div class="container">
             <h1>Your Beauty Destination</h1>
-            <p>Professional beauty services in Pending Road. Walk in or call to book your appointment today.</p>
+            <div class="badge badge-access">♿ Wheelchair Accessible</div>
+            <div class="badge badge-payment">💵 Cash Only</div>
+            <p style="margin-top: 24px;">Professional beauty services in Pending Road. Appointments recommended. Walk in or call to book.</p>
             <a href="tel:+6591060334" class="btn">Call 9106 0334</a>
-            <a href="tel:+6591060334" class="btn btn-outline">Book Now</a>
+            <a href="tel:+6591060334" class="btn btn-outline">Book Appointment</a>
             <div class="hero-image">
                 <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&h=400&fit=crop" alt="Beauty salon interior">
             </div>
@@ -116,7 +121,15 @@
                 </div>
                 <div class="contact-item">
                     <h4>Booking</h4>
-                    <p>Walk-ins welcome<br>Call to book</p>
+                    <p>Appointments recommended<br>Call to book</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Payment</h4>
+                    <p>Cash Only</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Accessibility</h4>
+                    <p>Wheelchair-accessible<br>car park available</p>
                 </div>
             </div>
         </div>
